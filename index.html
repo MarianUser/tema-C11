@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+    <meta name = "vieport" content=""width=device-width, initial-scale="1.0">
+    <title>Quiz page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <div class="inner_header">
+                    <div class="logo">
+                        <a href="/">
+                            <img class="logo-light" src="media\TFP-logo.jpg" alt="Main Logo">
+                        </a>
+                    </div> 
+                    <nav class="nav-bar">
+                        <ul class="mainMenu">
+                            <li><a href="/mainPage.html">Acasă</a></li>
+                            <li><a href="https://te-fac-programator.ro/about-us">Despre Noi</a></li>
+                            <li><a href="https://te-fac-programator.ro/courses">Cursuri</a></li>
+                            <li><a href="https://te-fac-programator.ro/course-groups">Grupe viitoare</a></li>
+                            <li><a href="hhttps://te-fac-programator.ro/events">Evenimente</a></li>
+                            <li><a href="https://te-fac-programator.ro/faq">FAQs</a></li>
+                            <li><a href="https://te-fac-programator.ro/registration">Mă înscriu</a></li>
+                            <li><a href="/index.html">Quiz</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+ 
+            <div class="start_btn"><button>Start Quiz</button></div>
+
+            <!-- Info Box -->
+            <div class="info_box">
+            <div class="info_title">
+                <span>Rules of the quiz</span>
+            </div>
+            <div class="info_list">
+                <div class="info">1. Rule1</div>
+                <div class="info">2. Rule2</div>
+                <div class="info">3. Rule3</div>
+            </div>
+            <div class="buttons">
+                <button class="quit">Exit quiz</button>
+                <button class="restart">Continue</button>
+            </div>
+            </div>
+
+            <!-- Quiz Box -->
+            <div class="quiz_box">
+            <header>
+                <div class="title">Quiz game</div>
+                <div class="timer">
+                <div class="timer_text">Time left</div>
+                <div class="timer_sec">15</div>
+                </div>
+                <div class="time_line"></div>
+            </header>
+            <section>
+                <div class="que_text">
+                <!-- <span>1. Ce este un algoritm?</span> -->
+                </div>
+                <div class="option_list">
+                    <!-- <div class="option">
+                        <span>A. O problema de rezolvat cu ajutorul calculatorului</span>
+                        <div class="icon tick"><i class="fas fa-check"></i></div>
+                    </div>
+                    <div class="option">
+                        <span>B. Un set de pasi, repetati pentru a gasi rezultatul</span>
+                        <div class="icon cross"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="option">
+                        <span>C. O materie de liceu</span>
+                    </div>
+                    <div class="option">
+                        <span>D. N-am auzit niciodata de acest cuvant</span>
+                    </div> -->
+                </div>
+            </section>
+
+            <!-- Quiz Box Footer -->
+            <footer>
+                <div class="total_que">
+                <!-- <span><p>2</p>of<p>5</p>questions</span> -->
+                </div>
+                <button  class="next_btn">Next question</button>
+            </footer>
+            </div>
+
+            <!-- Result box -->
+            <div class="result_box">
+            <div class="icon">
+                <i class="fas fa-crown"></i>
+            </div>
+            <div class="complete_text">You've completed the quiz!</div>
+            <div class="score_text">
+                <!-- <span>and sorry, you got only <p>2</p> out of <p>5</p></span> -->
+            </div>
+            <div class="buttons">
+                <button class="restart">Restart Quiz</button>
+                <button class="quit">Quit Quiz</button>
+            </div>
+            </div>
+
+            <script src="js/questions.js"></script>
+            <script src="js/script.js"></script>
+        </main>
+    </body>
+</html>
